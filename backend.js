@@ -10,6 +10,9 @@ app.get("/", (req, res) => {
     res.status(200).render('index');
 })
 
+app.use((req, res) => {
+    res.status(404).render('404');
+});
 
 app.listen(port, () => {
     console.log(`Listening to: http://localhost:${port}`);

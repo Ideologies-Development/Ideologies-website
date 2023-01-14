@@ -1,0 +1,29 @@
+:root {    
+    --background-color: #B3C9E6;
+    --accent-color: #007cb9;
+    --text-color: black;
+    --link-color: #af4eff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+img {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 5rem;
+    font-family: Raleway;
+}
