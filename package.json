@@ -4,7 +4,7 @@
   "description": "The official website for the ideologies discord server.",
   "main": "backend.js",
   "scripts": {
-    "test": "nodemon ."
+    "start": "node ."
   },
   "repository": {
     "type": "git",
