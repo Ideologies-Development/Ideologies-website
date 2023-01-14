@@ -10,7 +10,7 @@ To run the website locally, you need to have [Node.js](https://nodejs.org/en/) i
     npm install
     npm run start
 ```
-This will start a local server on port 4000. You can then access the website by going to `http://localhost:4000` in your browser.
+This will start a local server on port 25557. You can then access the website by going to `http://localhost:25557` in your browser.
 
 ## How to change things on the website
 To add a new page to the website you need to add this in the `backend.js` file:
