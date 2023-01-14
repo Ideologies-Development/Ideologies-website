@@ -1,0 +1,24 @@
+{
+  "name": "ideologies-website",
+  "version": "1.0.0",
+  "description": "The official website for the ideologies discord server.",
+  "main": "backend.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iideologies-Development/Ideologies-Website.git"
+  },
+  "author": "commander-r",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Iideologies-Development/Ideologies-Website/issues"
+  },
+  "homepage": "https://github.com/Iideologies-Development/Ideologies-Website#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,45 @@
+:root {    
+    --background-color: #B3C9E6;
+    --accent-color: #007cb9;
+    --text-color: black;
+    --link-color: #ff895d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+.overlap {
+    background-image: url("/img/ideologies_banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.logo-overlap {
+    border: .75rem solid var(--background-color);
+    border-radius: 50%;
+    height: 15rem;
+
+    margin-top: -5rem;
+}
+
+main h1 {
+    font-family: Raleway;
+}
+
+main p {
+    font-family: Poppins;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
