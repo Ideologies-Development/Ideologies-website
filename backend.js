@@ -8,7 +8,11 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 app.get("/", (req, res) => {
     res.status(200).render('index');
-})
+});
+
+app.get("/discord", (req, res) => {
+    res.status(200).redirect('https://discord.gg/h7U9Kc2hCd');
+});
 
 app.use((req, res) => {
     res.status(404).render('404');

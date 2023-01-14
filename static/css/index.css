@@ -2,7 +2,7 @@
     --background-color: #B3C9E6;
     --accent-color: #007cb9;
     --text-color: black;
-    --link-color: #ff895d;
+    --link-color: #af4eff;
 }
 
 * {
@@ -16,6 +16,10 @@ body {
     color: var(--text-color);
     text-align: center;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+a {
+    color: var(--link-color);
 }
 
 .overlap {
@@ -44,8 +48,9 @@ main p {
     padding-right: 2rem;
 }
 
+
 #openNav {
-    position: absolute;
+    position: fixed;
     top: 1em;
     left: 1rem;
     width: 40px;
