@@ -14,6 +14,8 @@ app.get("/discord", (req, res) => {
     res.status(200).redirect('https://discord.gg/h7U9Kc2hCd');
 });
 
+
+
 app.use((req, res) => {
     res.status(404).render('404');
 });
