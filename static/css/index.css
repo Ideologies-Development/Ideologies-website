@@ -4,7 +4,7 @@
        --text-color: white;
        --accent-color: #002a3e;
        --link-color: #6200b3;
-       --button-color: #FFFFFF
+       --button-color: #B3C9E6;
     }
 }
 
@@ -78,7 +78,7 @@ main p {
     left: 1rem;
     width: 40px;
     height: 40px;
-    background-color: var(--background-color);
+    background-color: var(--button-color);
     border-radius: 50%;
     border-color: var(--accent-color)
 }
