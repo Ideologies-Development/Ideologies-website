@@ -71,6 +71,27 @@ main p {
     margin-right: auto;
 }
 
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.video {
+    display: inline-block;
+    margin: 1rem;
+}
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: #08c708;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
 
 #openNav {
     position: fixed;
