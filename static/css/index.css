@@ -80,13 +80,15 @@ main p {
 .video {
     display: inline-block;
     margin: 1rem;
+    width: 25rem;
+    overflow: hidden;
+    padding-left: 10px;
 }
 
 div.scroll {
     margin: 4px, 4px;
     padding: 4px;
-    background-color: #08c708;
-    width: 100%;
+    width: 90%;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
