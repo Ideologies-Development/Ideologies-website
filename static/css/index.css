@@ -77,11 +77,6 @@ main p {
     white-space: nowrap;
 }
 
-.video {
-    display: inline-block;
-    margin: 1rem;
-}
-
 div.scroll {
     margin: 4px, 4px;
     padding: 4px;
