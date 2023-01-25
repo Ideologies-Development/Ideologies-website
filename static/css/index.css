@@ -4,7 +4,7 @@
        --text-color: white;
        --accent-color: #002a3e;
        --link-color: #6200b3;
-       --button-color: #FFFFFF
+       --button-color: #B3C9E6;
     }
 }
 
@@ -71,6 +71,22 @@ main p {
     margin-right: auto;
 }
 
+.scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: #08c708;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
 
 #openNav {
     position: fixed;
@@ -78,7 +94,7 @@ main p {
     left: 1rem;
     width: 40px;
     height: 40px;
-    background-color: var(--background-color);
+    background-color: var(--button-color);
     border-radius: 50%;
     border-color: var(--accent-color)
 }
